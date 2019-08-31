@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sathys e-commerce page Automation testing]">
+  <test thread-count="5" name="payment test(failed)">
+    <classes>
+      <class name="in.sathya.test.ProductOrdertest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Orderproduct" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.sathya.test.ProductOrdertest -->
+    </classes>
+  </test> <!-- payment test(failed) -->
+</suite> <!-- Failed suite [Sathys e-commerce page Automation testing] -->

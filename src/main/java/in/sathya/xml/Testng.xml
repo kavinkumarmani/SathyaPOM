@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sathys e-commerce page Automation testing">
+
+	<test name="login test">
+		<classes>
+			<class name="in.sathya.test.Testclass" />
+		</classes>
+	</test>
+	<test name="payment test">
+		<classes>
+			<class name="in.sathya.test.ProductOrdertest" />
+		</classes>
+	</test>
+	<test name="excelwrite test">
+		<classes>
+			<class name="in.sathya.test.HPLaptopspagetest" />
+		</classes>
+	</test>
+</suite>
